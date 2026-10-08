@@ -1,0 +1,9 @@
+{
+  "classPath": [
+    "wildermyth.jar"
+  ],
+  "mainClass": "com.worldwalkergames.legacy.LegacyDesktop",
+  "vmArgs": [
+  	"-Xmx2g"
+  ]
+}

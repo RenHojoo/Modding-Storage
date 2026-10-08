@@ -1,0 +1,1445 @@
+1.16+559
+Os efeitos ao matar agora acontecem antes dos efeitos ao morrer (então, se você tiver
+  Intocável e matar um inimigo que explode, Intocável
+  agora evita o dano da explosão)
+Corrigido um problema em que Drathix Soprodracônico não respeitava Engajado
+Corrigido um problema em que Zombar podia ser usado por inimigos atordoados
+Corrigido um problema em que a tatuagem de pele Tocado por Magia, uma das mangas de Vulta,
+  e a arma Pragalesca de "Estrada do Presságio" não apareciam no Linux
+Corrigido um possível travamento ao atacar territórios enquanto uma incursão está
+  atacando um território
+Ajustes nas traduções
+Ferramentas: corrigido um problema de injeção de mod em cadeias vazias
+Ferramentas: adicionado campo "requireLegacyUnlock" aos registros do histórico
+
+1.16+556
+Atualizamos a trilha sonora para versões gravadas ao vivo!
+  (Também adicionamos uma opção de áudio para alternar para as versões originais)
+Corrigida a descrição incorreta da habilidade Sabedoria em francês
+Outras atualizações de traduções
+Corrigido um problema de fonte nas modificações de tradução para ucraniano
+Ferramentas: Corrigido um problema em que encounterWeight não estava utilizando
+  corretamente os dados dos papéis atribuídos
+
+1.16+554
+A contagem dos chefes do conteúdo "Estrada do Presságio" agora é feita de acordo
+  com o número de vezes que aparecem (assim, vai ser mais rápido encontrar todos)
+A opção de interface "Mostrar mud. sing. de estat. com eqp. nos botões de
+  compartimentos vazios" mudou para ficar habilitada como padrão
+A tarefa de pesquisar território agora mostra um herói qualquer falando
+  (assim, é menos provável que diga a mesma coisa sempre)
+Ajustes nas traduções alemã, espanhola e portuguesa
+Corrigido um problema em que as partidas multijogador da Epic ou da GOG com
+  três ou mais jogadores não funcionam direito (o jogador 3 substitui o jogador 2)
+Corrigido um problema que fazia o "engajar" sumir de inimigos grandes de repente. Agora
+  deve estar mais estável
+Corrigido um problema com a música de batalha final de Eluna e a Mariposa
+Corrigido um problema em que Paladino+ podia acontecer através de Crisálida de Cristal
+Corrigido um problema com o santuário de transformação do conteúdo "Estrada do Presságio"
+  onde 1 PL era subtraído mesmo sem o jogador pegar uma parte de tema adicional
+Corrigido um travamento ao tentar importar heróis de legado no Linux
+Ferramentas: corrigido um problema em que o direcionamento para a família
+  (PARENT_OF, CHILD_OF etc.) não funcionava com heróis de legado
+
+1.16+552
+Corrigido um problema em que o grupo inimigo de campanhas genéricas não era aplicado
+Corrigido um problema em que heróis com tatuagens de feitiços e de petramorfos
+  se tornam transparentes em alguns casos
+Ferramentas: Corrigidos alguns problemas de injeção de mod com adição de matrizes e ao
+  adicionar RewardTemplates ou ExtraRewardTemplates em masmorras
+
+1.16+551
+Corrigido um problema em Ossos Estivais em que o personagem místico e a criança
+  param de ganhar pontos de relacionamento se você encerrar a rivalidade deles
+Corrigido um problema com a navegação de heróis via controle nos Preparativos Finais
+Ferramentas: a fórmula humanName personalizada agora é transferida no reroll, e
+  corrigido um problema com personalização (nameFormulaOverride não é mais necessário!)
+Ferramentas: Injeções de mod agora podem remover um índice específico de uma lista
+Ferramentas: Adicionado campo "removeAspects" aos temas e peças temáticas
+Ferramentas: Corrigidas injeções de mod que não funcionavam em campanhas e masmorras
+Ferramentas: Corrigido um problema em que as injeções de mod não podiam substituir objetos de
+  dados complexos (como um StatsMap completo)
+Ferramentas: Corrigida uma falha ao adicionar às estatísticas do tema via editor
+Ferramentas: Corrigida uma falha em injeções de mod ao clicar em "Mostrar Original"
+  sem nada selecionado
+Ferramentas: Corrigido um problema com a exibição de substituições de injeção de mod StatsMap
+
+1.16+550
+Corrigido o problema de aumento do tempo de carregamento para certos textos (como
+  aceitar equipamento e registro de personagem) para jogadores com muitas modificações
+Ferramentas: Corrigidos alguns problemas com Injeção de Mods
+
+1.16+549
+Corrigido um possível risco de segurança com modificações
+Corrigido um problema em que os hinos selecionados de "A Estrada do Presságio" seriam redefinidos se você trocasse
+  para uma campanha não desafio
+Corrigido um problema em que Garras do Terror só funcionavam em "Um Passeio na Penumbra"
+Corrigido um problema em que Faca da Precisão e A Faca Espectrescrita podiam
+  atacar na diagonal
+Corrigido um problema em que Gworls Lançadracos podiam aparecer como Erklebits
+Corrigidas linhas faltantes da tradução francesa ao capturar o espírito das sombras
+Corrigidas linhas faltantes da tradução francesa da história "Um Passeio na Penumbra"
+Corrigido um problema em que a imunidade a verme mental não funcionava
+Corrigido um problema em que o diálogo de Novo Jogador seria muito grande ou inválido
+Corrigido um problema no editor onde o menu Créditos travava
+Ferramentas: Adicionada página "Injeção da Mod" no editor, que permite
+  injetar objetos json em arquivos json existentes sem precisar
+  substituir o arquivo todo. Útil para editar objetos que provavelmente
+  serão modificados por várias modificações!
+Ferramentas: Adicionado suporte para substituir ou adicionar para arquivos de imagens compactados,
+  como IU/escala. As imagens serão copiadas para os arquivos principais se forem
+  colocados em uma estrutura paralela para imagens normais descompactadas
+  (por exemplo: mods/user/myCoolMod/assets/ui/scale/unpacked/myImage.png)
+Ferramentas: Adicionadas as expressões DLC_INSTALLED_ARMORSANDSKINS, DLC_INSTALLED_OMENROAD 
+  e MOD_ACTIVE.modId
+Ferramentas: Links da Wiki para eventos e habilidades agora levam para caminhos no formato
+  "wildermyth.com/wiki/Mods/[modName]/[eventName]"
+Ferramentas: Adicionado o campo wikiNameOverride, que pode ser usado para especificar um
+  nome diferente a ser usado na seção [modName] do link
+
+1.16+543 Omenroad Hotfix
+French and Spanish Omenroad fully translated!
+Three new tidings
+Two additional phases added to music in A Walk in the Unlight final fight
+Some lines added to A Walk in the Unlight to acknowledge soulmate heroes
+Can now use entangle on allies that can't be knocked back
+Added text feedback when Ode to the Unyielding prevents death
+Adjusted weighting on several tidings
+Adjusted tongue whip description
+Various translation adjustments
+Added a warning message that shows up if the player account has no legacy
+  or legacy backup file, but does have a save game. This is to try and help
+  with an uncommon issue (probably with Steam Cloud?) where the legacy and
+  legacy backup files get deleted for some reason
+Fixed bug with Overwhelming Monstrosity achievement
+Fixed bug where non-family heroes were showing up as family
+Fixed bug where "Save and Quit" option could be chosen in places where
+  "Save" option is disabled, causing unexpected behavior
+Fixed bug where in-game change notes only showed up in English and Chinese
+Fixed bug where Terror's Talons could move immune to knockback enemies
+Fixed bug where legacy locked soulmates or rivals caused weird behavior
+  in A Walk in the Unlight (legacy relationship lock will now be ignored,
+  other than the new lines that were added)
+Fixed bug where The Glorysword Clayn attack wasn't marked as melee
+Fixed bug where Omenroad results could be cut off with lots of abilities
+Fixed bug with Arrow of Anywise cover
+Fixed several small comic bugs in A Walk in the Unlight
+Fixed bug where campaigns could get stuck at "Constructing Mission"
+Fixed bug where Luthin duplicates didn't have correct golden shields
+Fixed bug where flashcone kills wouldn't increase hero kill counter
+Fixed bug where Sunglory Spaulders didn't grant additional damage
+Fixed bug where Omenfry Skillet dealt less damage than intended
+
+1.16+540 Omenroad Hotfix
+Removed reward timers from The Glorysword Clayn boss fight
+Fixed crash if hero with Stalwart+ enabled entered Starwing darkness region
+Fixed bug where The Umbertorch weapon dealt 2 less damage than intended
+Fixed bug where A Walk in the Unlight crafting could play unintended event
+Fixed bug where Head Chef "Feed the Fire" didn't check line of sight
+Fixed bug where after crafting an item, no slot would be selected,
+  which could cause unexpected behavior
+Fixed bug with Arrow of Anywise and Chain Lightning cover calculations
+Missing light templates will no longer cause plot to fail (fixed mod issue)
+
+1.16+539 Omenroad Hotfix
+Phantasmal Step no longer blocks turn end
+Fixed bug where subtracting an Ode down to zero could still allow that Ode
+Fixed bug where Abjure "deafened" effect wouldn't actually reduce enemy damage
+Fixed bug where max enemies killed in one turn wasn't always counted correctly
+Another fix for Starwing crash bug
+German translation updates
+
+1.16+538 Omenroad Hotfix
+Terror's Talons ability now allows moving unit in any direction
+Added "stunts" to Omenroad results screen
+Can now click Peril button to make peril and odes screen stay up
+Can now view character sheets on nodemap by pressing back button on controller
+Thuuedra Fling ability now always shows on ability bar
+Adjusted some npcs to not spawn with combat modifiers
+Wolves can no longer lunge while pinned
+His One True Knife can now use teleport ability when hidden
+UI spacing adjustments, especially for smaller resolutions using
+  "Bigger" UI size and translations; improved dialogs include
+  Odes selection, in-game Peril + Odes view, results screen
+Fixed bug where Wisdom showed Omenroad text in all cases
+Fixed bug where A Walk in the Unlight page 1 capstone plot heroes could end up 
+  with negative health after being maimed
+Fixed bug where "The Artist" portrait achievement couldn't be unlocked
+Fixed bug where defeating Malthides wouldn't unlock item and achievement
+Fixed bug where saving a game during a comic after a choice but before a mission
+  starts would result in an endless "Constructing mission" message on load
+Fixed bug where Beguiling Fanatic map would end before collecting rewards
+Fixed bug where ability shrine choice popups showed level up stats
+Added another fix for Starwing causing a crash
+Several German and Chinese translation fixes
+Typo fixes, various comic adjustments
+
+1.16+537 Omenroad Hotfix
+Fixed bug where Starwing could cause a StackOverflow crash
+Fixed bug where legacy Omenroad boss weapons weren't carrying over into new campaigns
+Fixed bug where no unlocked Omenroad boss items would spawn in regular campaigns
+Fixed bug where getting a Shadow Spirit would cause a crash in German, Spanish, and French
+Fixed bug where game wouldn't shut down fully if you opened Omenroad Achievements page
+Spanish translation progress, German and Chinese translation fixes
+
+1.16+536 Omenroad Hotfix
+Fixed bug where controller input couldn't use Gear Upgrade or
+  Relationship shrines
+Several Translation fixes
+
+1.16+535: A Estrada do Presságio
+Adicionados efeitos sonoros para pés de pássaro, Salva de Flechas, drauvenBirdMarkPrey, 
+  ratErraticMovement
+Ajustada a resposta do alcance de pisos para Artilharia e Artilharia Estonteante
+Pancada de Asa Drauven e Penalidade de Ave de Relâmpagoela agora causam dano físico em vez de dano real
+Ajustado o texto do objetivo do capítulo 1 da campanha de Ulstryx, no sentido
+  de que outros territórios devem ser retomados antes da luta principal
+Hifens duplos substituídos por travessões
+Movimento de borda de tela não ocorre mais no modo controle
+  (Corrigido um problema em que, às vezes, a tela corria para o
+  canto superior esquerdo se o ponteiro do mouse estivesse lá)
+Gravação de Legado agora ocorre com menos frequência em certos casos, resultando em
+  menos engasgos durante a partida
+A observação de diálogo do arquivo de gravação agora é uma única linha de inserção de texto
+O som de fura armadura não toca mais em proteção à fura armadura
+Várias correções nas traduções
+Corrigido um problema em que o evento "Sonhos de Ícaro" poderia ocorrer várias vezes por campanha
+Corrigido um problema com áudio ambiente mudo quando não deveria
+  (Agora você pode ouvir mais sons naturais durante as batalhas do que antes)
+Corrigido um problema em que pedaços de conjuntos muito próximos da câmera ficavam visíveis,
+  atrapalhando a visão do jogador
+Corrigido um problema em que Depósito de Conhecimento podia ocorrer através das paredes
+Corrigido um problema em que Solidez+ impedia Crisálida de Cristal
+Corrigido um problema em que os inimigos, às vezes, travavam visualmente em seu último piso
+Corrigido um problema com a pele temática vinhas míticas do Místico (F)
+Corrigido um problema em que Flecha de Fogo não podia ser disparada a uma
+  distância longa com arcos elementais
+Corrigido um problema em que objetos cênicos com >20 de saúde não podiam ser usados por Farpas
+Aviso de fogo amigo não mostra mais o dano causado a objetos cênicos
+Ferramentas: 
+O botão "Atualizar" do editor agora funciona melhor para atualizar modificações
+A seção Combate agora mostra missões, mesmo sem um cenário
+Adicionada a opção "ignoreRestrictions" para ApplyTheme Outcome
+Adicionados os campos "ifChoiceNumLessThanOrEquals" e "sortByScore" 
+  nas opções AbilityTarget
+Adicionada a variável de expressão NUM_ENEMIES, que obtém o número
+  de inimigos da missão atual
+Adicionada a expressão isMatchText, útil para checar parâmetro textual
+Adicionada a função de partícula "particleNumData_V", que pode ser usada para 
+  obter dados de um determinado número de partícula
+Agora é possível alinhar ONE_FURTHEST para uma função com várias correspondências
+Adicionada a variável "CAN_ROMANCE_LOOSE", que verifica família e
+  romance proibido (por exemplo, esqueleto), mas ignora relacionamentos existentes, 
+  forbidRandomRomances e atração.
+Partículas: e.life e e.time foram ajustados para não resetarem após looping
+Partículas: adicionada a variável tileIsVisible, que retorna 1 se o piso da missão
+  não está na neblina de guerra, e 0 do contrário
+Partículas: adicionadas as variáveis vx, vy, vz e velocity
+Adicionada a opção "useExistingEmitter" para outcomes de animação de partículas
+Adicionadas as opções alwaysShow e forbidMonsterDestroy para o objetivo CountScenery
+Adicionado o tipo de correspondência ONE_FURTHEST_OPTIONAL
+Adicionado o campo animationCustom para animações de movimento
+Agora é possível gerar uma carta aleatória de um tipo de monstro via Gerar Outcome
+Adicionado o teste LIVE_ALLIES LOS
+Corrigido um problema em que o aspecto rigOverridePriority era excluído
+Adicionado o outcome "For", que pode ser usado para executar um outcome 
+  um certo número de vezes
+Adicionado o gatilho de efeito WAS_ATTACKED_DELAYED
+Adicionado o gatilho de herói MISSION_VICTORY
+Adicionadas as variáveis de expressão POSITION_X e POSITION_Y
+Corrigido um problema em que a caixa Loop Next Action, na seção Combate, 
+  às vezes usava uma ação anterior
+Adicionadas as variáveis de expressão DIFFICULTY_COMBAT e DIFFICULTY_OVERLAND
+Adicionada a trapaça grant random gear (Shift+Ctrl+G), que concede alguns equipamentos
+  com base na classe e aleatoriedade
+Adicionado o teste EQUAL_TO
+
+Manutenção 1.15+511: Orien Marten
+Corrigidos alguns problemas com a tradução russa.
+
+1.15+505 Orien Marten
+Adicionado suporte oficial da localização russa!
+Evento reescrito: "Abandono" (anteriormente "O Abandonado")
+Evento reescrito: "Voo sem Penas"
+Evento reescrito: "Acalmando os Nervos" (anteriormente "Vistas Periféricas")
+Nova notícia
+Adicionado um sistema de backup de arquivos de legado mais robusto
+Alterado o sistema dos eventos procedurais nas campanhas para diminuir sua repetição
+  (o divisor de escolhas agora é multiplicado por 16 em vez de 4 após uma campanha)
+Ajustado o número de modificador de luz verde de "Trabalho" para deixá-lo mais escuro
+Corrigido um problema onde o tema esquelético poderia travar e deixar de progredir
+Corrigido um problema onde a habilidade "Zombar" dos drauven podia atravessar paredes
+Corrigido um problema com "Constrição Maior", que exibia quantidade de dano errada
+Corrigido um problema onde heróis de legado corrompidos não podiam ser substituídos
+Corrigido um problema onde "Escondidos" podiam aparecer nos quadrinhos
+Corrigido um problema que às vezes impedia os inimigos de tentarem passar por portas
+Corrigido um problema onde objetos cênicos diagonais tornavam os pisos impassáveis
+Corrigido um problema com os links da wiki no Linux
+Corrigido um problema com heróis sem armas
+Corrigidos alguns problemas visuais com os equipamentos
+Ferramentas: Adicionado o aspecto "rigOverridePriority|PRIORITY|RIG". Agora um 
+  rigOverride pode substituir um rigOverride diferente
+Ferramentas: Adicionados códigos para os idiomas uk, uk_UA, th e th_TH, para traduções não oficiais
+Ferramentas: Adicionados botões para encontrar arquivos sem tradução
+Ferramentas: Adicionado o efeito TIDING_REQUIRED, para notícias que sempre devem acontecer
+  se cumprirem o requisito, e que não devem contar para o número total de notícias
+
+1.14+487 Elona Rib Hotfix
+A tecla Enter do teclado numérico pode ser usada para todas as funções da tecla Enter convencional
+Corrigido um problema com travamento do jogo no idioma francês quando o mouse era deixado no botão de ataque
+Corrigido um problema com diversos textos em francês desaparecidos
+Corrigidas algumas linhas desaparecidas em um quadrinho de recrutamento
+
+1.14+486 Elona Rib
+Adicionado suporte oficial ao idioma Francês!
+Evento reescrito: Questão Pastoral (antigo Detonação Deslumbrante)
+Evento reescrito: Quando Lutamos
+Nova Notícia
+Ciclone de Fragmentos agora causa menos dano, mas tem um raio de alcance maior
+ Humanista+ aumenta o raio
+Olhar Inescrutável do esqueleto agora afeta os morthagi
+Emboscada com Tiro Perfurante agora pode ser colocado atrás dos inimigos
+Novos penteados
+Barras de saúde dos inimigos agora exibem ícones de calamidade para bônus de calamidade
+Ajustada a resposta nos pisos para várias habilidades de área (os alcances apresentam
+ "bordas" em vez de destacarem pisos de forma igual)
+Adicionada nova imagem para "Adicionar ao Legado"
+Dano nas calamidades Dardo e Sommelier agora aparecem mais tarde
+Nova opção de interface (inicia desabilitada):
+ Mostrar mudanças singulares de estatísticas com equipamentos nos botões de compartimento vazios
+ (para ver mudanças singulares de estatísticas sem precisar passar o mouse por todos os compartimentos)
+libGDX atualizado da versão 1.9.11 para 1.11.0 (isto pode arrumar ou melhorar alguns problemas gráficos)
+Proteção de Pedra não pode mais ser evitada por várias habilidades
+Ajustada a tabela de personalização do personagem para funcionar melhor com controles
+Corrigido um problema em que Raivoso podia atacar durante o atordoamento
+Corrigido um problema em que Flechas Incandescentes + Tiro Perfurante exibiam dano errado
+Corrigido um problema ao usar Espada Flamejante sem campo de visão (CdV)
+Corrigido um problema em que certos ataques de área e efeitos em pisos causavam lentidão
+Corrigido um problema em que o gancho de história "Misterioso" podia afetar um herói filho
+Corrigido um problema em que os drauven que usam Zombar podiam pular em heróis escondidos
+Corrigido um problema em que Amaldiçoar do esqueleto não durava os 2 turnos
+Corrigido um problema em que o dano do martelo Causatremor era maior do que deveria
+Corrigido um problema com alguns gêneros incorretos nas linhas de história
+Corrigido um problema do conteúdo adicional em que alguns bônus de armadura eram exibidos nos quadrinhos
+Corrigido um problema do conteúdo adicional em que Trajado para a Luta desaparecia quando próximo
+ a um aliado escondido
+Corrigido um problema do conteúdo adicional em que Reforço Destemido não funcionava com Paladino+
+Corrigido um problema do conteúdo adicional em que místicos de PnJs podiam ficar invisíveis
+Corrigido um problema do conteúdo adicional em que Memória Selvagem podia acumular
+Corrigido um problema do conteúdo adicional relativo aos pés da pele Sauriana
+Ferramentas: Adicionado painel "Conexões" aos editores de Aspectos e Efeitos, que alterna
+ entre aspectos e efeitos relacionados. Também exibe funções injetadas de ramificações
+ de eventos, etc., e mensagens de erro levam isso em consideração.
+Ferramentas: Adicionado o botão "Atualizar" no canto superior direito, que atualiza
+ modificações e conexões. (Em vez de ter que reiniciar o jogo ou habilitar e desabilitar
+ modificações, experimente esse botão!)
+Ferramentas: Possibilidade de gerar perigos "personalizados" (ver humanistRecipe_shardnado)
+Ferramentas: Os pisos agora respeitam "allowDuplicates"
+
+1.13+476 Niyati
+Evento reescrito: A Escolha (antigo "Farinha do Mesmo Saco")
+Personalização do herói agora está em uma única página
+28 novas imagens de acessórios genéricos (4 novos broches, anéis,
+  colares, talismãs, joelheiras, braceletes e lenços)
+Corrigido um problema onde a habilidade passiva "Zombar" do Deeven não funcionava
+Corrigido um problema onde alguns ataques de área dos inimigos ignoravam engajamento
+  (enterrar-se do Scorier, ataques de interfusão do Deeven)
+Corrigido um problema com habilidades de cauda que apareciam antes dos ataques corpo a corpo
+Corrigida uma sobreposição visual de equipamento incorreta
+Corrigido um problema onde "Cone de Fogo" e "Chicote de Espinhos" estavam sendo usados
+  com "Guardião" quando não deveriam
+Corrigido um problema onde objetos criados exibiam textos do sistema
+  em alguns idiomas
+
+1.12+469 Dashel Wilde
+Evento reescrito: Trocando Segredos (antigo Ambrosia Eterna)
+Novos artefatos: Faca Espectrescrita e Truque do Sonhador
+Correções das traduções
+Ajuste nos modificadores de combate: 
+  * Vigor agora concede +2 de saúde temporária
+  * Astúcia agora causa +2 de dano com ataques de flanco
+Ajuste na descrição de Movimento Errático
+Aumentada a prioridade UI de alguns ataques temáticos
+Pisos celestiais agora desaparecem no fim do turno do inimigo
+  (e assim não desaparecerá com a habilidade Arco e Flecha do seu caçador, etc.)
+A explosão de Crisálida de Cristal agora usa o alcance e o dano
+  que você tinha quando inicialmente usou a habilidade
+Corrigido um possível travamento com tags de estilo textual incorreto
+Corrigido um problema onde frenesi lupina e garra dupla do corvo
+   não podiam usar Tiros Perfurantes, Flechas Incandescentes, etc.
+Corrigido um problema com botão de habilidade duplicado da cabeça de sapo
+Corrigido um problema onde Cinto de Musgo continuava a existir no legado
+Corrigido um problema onde algumas imagens de santuários dos petramorfos apareciam apagados
+Corrigido um problema com a linha de história Minueto
+Corrigido um problema onde os pisos celestiais não funcionavam para o Sommelier de estimação
+Corrigido um problema onde Jato de Gambá não funcionava com Atirador de Elite
+Corrigido um problema onde alguns pisos de lago mostravam nomes em caixa baixa
+Ferramentas: Adicionado o campo "parameterValues" nos Aspects Outcome
+  para adicionar valores pré-avaliados como parâmetros de um aspecto
+
+1.11+465 Firlow (Manutenção)
+Corrigido um problema onde muitas linhas traduzidas estavam aparecendo em branco
+Corrigido um problema onde ataques reativos não removiam o Plano Cinza
+Corrigido um problema onde a escolha do diálogo do herói de defesa não funcionava
+Corrigido um problema onde inimigos explosivos empurrados por ataques de guarda
+  explodiam em seu piso inicial em vez do piso onde terminavam
+Corrigido um problema: Reduzido o dano do martelo elemental de nível 3 de 9 para 8
+
+1.11+460 Firlow
+Adicionado suporte oficial para o idioma Alemão!
+Adicionado suporte oficial para o idioma Espanhol (LATAM)!
+Novos Eventos:
+ * Musgo
+ * Histórias Conectadas (evento de início de campanha genérica)
+4 novas notícias!
+Mudanças nas Górgonas:
+ * As Górgonas agora corrompem pisos quando são feridas
+ * As Górgonas agora deixam corrupção nos pisos quando morrem
+ * Corrupção agora causa 1 de dano mágico quando pisada
+ * Corrupção não mais concede saúde temporária aos inimigos
+ * Corrupção permanece no mapa por dois turnos dos heróis
+ * Informações sobre o piso corrompido estão mais visíveis
+ * Removidas as calamidades de toque corruptor das Górgonas
+ * Invocamar agora aparece mais cedo com saúde e tentáculos reduzidos
+ * A pancada do Gheist agora não causa dano, apenas fura armadura
+ * Lamacento tem uma calamidade que aumenta o alcance da Língua Tóxica
+ * Habilidade passiva “Inchado” do Lamacento: explode em corrupção ao morrer
+ * Os inimigos com Explosivo Sangrento Estrondoso de Bartoth explodem ao morrer, causando dano total aos heróis e metade aos aliados
+ * Novo efeito sonoro e visual para Língua Tóxica
+6 novos estilos de cabelo!
+20 novos acessórios!
+Adicionadas dicas para os efeitos nos pisos, como fogo, corrupção, ácido, etc.
+Pequeno aumento nos custos de peles e tecidos das armaduras
+Removidas algumas calamidades inúteis, como bônus de dano para Kinnestend
+Ajustadas diversas habilidades e agora o áudio é reproduzido no piso alvo
+As habilidades especiais de Drathix e Pássaro Medonho causam dano quando eles recebem uma calamidade de dano
+Novos mapas para os territórios Bosque e Terraplanagens
+Ajustada a página Recuar/Fugir do menu Como Jogar
+Ajustada a animação da habilidade Arremessar Criatura de Ulstryx
+Corrigido um problema onde a habilidade Atirador de Elite não funcionava com Emboscada ou Flechas Incandescentes
+Corrigido um problema onde Vingança Apaixonada afetava Corta-escudo e Caçada Espiritual
+Corrigido um problema onde o herói ganha uma cauda cedo demais no evento “O Mercador”
+Corrigido um problema que mostrava o herói errado na história Filha da Noite
+Corrigido um problema onde as 3 mascotes adicionados recentemente não contavam para efeitos de conquistas
+Desabilitado o botão de fuga na história do capítulo 2 de Ulstryx
+Corrigido um problema onde o progresso da conquista “Paulada!” não funcionava para inimigos de muitos pisos
+Corrigido um problema onde a habilidade Caçada Espiritual causaria dano se um herói escondido a usasse (deve apenas furar proteção)
+Corrigido um problema onde a habilidade Flechas Incandescentes não funcionava com ataques temáticos ou alvos de muitos pisos
+Corrigido um problema onde ataques acessórios não apareciam no registro de combate
+Corrigido um problema onde Árvores da Lamentação não podiam ser destruídas (manutenção 1.10-454)
+Corrigidos alguns erros de digitação
+Editor: Adicionado o campo audioAtPosition para Animate Outcome
+Editor: Adicionado o campo appendHistory para criação de entidades
+Editor: Adicionado o aspecto rigOverride|RIG para substituir o equipamento de uma unidade
+Editor: Os arquivos rigs.json e humanAging.json agora podem ser combinados
+Editor: Adicionado o aspecto nameFormulaOverride|FORMULA que pode ser usado para substituir a geração maleName/femaleName padrão
+Editor: As modificações agora podem substituir imagens em human/unpacked ao se inserir imagens em human/misc
+Editor: Dados do esqueleto da unidade agora podem ser carregados das modificações (por exemplo: spine/Bobblehead warrior.json)
+Editor: Registros 500-599 de história agora são tratados como gênero/orientação
+
+
+1.10+453 Suna Lo Haster
+Adicionado suporte oficial para o idioma Português do Brasil!
+Compatível com Steam Deck!
+Novo evento: Shy e a Sombra
+Eventos reescritos: 
+  * Luz Ancoradoura (Antigo: Dança das Estrelas)
+Eventos revisados:
+  * Achado Não É Roubado
+3 novas mascotes!
+10 novas notícias/imagens de créditos!
+Os clientes de multijogador agora podem recrutar de seus legados
+Precisão corpo a corpo e à distância agora são apenas "Precisão"
+  (As estatísticas devem ser alteradas corretamente para os heróis existentes)
+Bônus de precisão do amuleto do corvo e da criatura reduzido de 15 para 12
+As imagens de créditos agora podem ser navegadas manualmente. O tempo será
+  maior para imagens com mais texto e menos capturas instantâneas são exibidas
+Os anos de paz e as imagens de créditos agora têm menos chance de serem
+  exibidos se você já os viu em campanhas anteriores (como quadrinhos frequentes)
+  e têm melhor relevância
+Algumas armaduras agora têm variações em ouro e prata (na aba personalização)
+Novos efeitos visuais para Uivo, Pele de Farpa e alguns temas de pele
+Novos ícones de habilidade
+Crisálida de Cristal agora explode e causa dano no próximo turno do herói
+Os quadrinhos irão rolar verticalmente se forem grandes demais para serem exibidos
+Os eventos iniciais de trabalhos no mapa geral exibem o nome da habilidade atual como título
+Ajustado o posicionamento da barra de habilidade de Descarga Descontrolada e Raio Murchante
+Abrir o editor no Steam configura o controle para funcionar como um mouse
+Corrigido um problema onde o uso de quadrinhos maiores em chinês travava o jogo
+Corrigido um problema onde Atirador de Elite poderia causar alcance máximo de Emboscada incorreto
+Corrigido um problema onde o ataque Memória Muda era invisível e de múltiplos acertos
+Corrigido um problema onde as opções de dificuldade no idioma chinês em Opções > Este Jogo
+  eram exibidas em inglês
+Corrigido um problema na visualização das notas de atualização no menu principal
+Corrigido um problema onde o texto de novo nível do herói não exibia as estatísticas melhoradas
+Corrigido um problema onde os heróis principal e secundário da missão Orgulho estavam trocados
+Corrigido um problema onde armadura e proteção temporárias eram removidas na ordem incorreta
+Corrigido um problema onde as campanhas da Oficina Steam não carregavam ao abrir o jogo
+Corrigido um problema onde o contador de mortes causava lentidão em grandes legados
+Corrigido um problema onde o texto da habilidade Tecedor Mítico não cabia no botão
+Corrigido um problema envolvendo a janela de dicas de tutorial invisível no modo controle
+Corrigido um problema onde efeitos ao matar não ocorriam para o herói que matou o 
+  mentor morto-vivo de Ecthis
+Corrigido um problema onde Corta-escudo reproduz o som incorreto ao se usar uma besta
+Corrigido um problema onde o herói sacrificado da A Guerra Perene era imediatamente colocado
+ no legado sem promoção
+Corrigido um problema onde a conquista Sem Tempo para Monstros de Garras não podia ser obtido 
+  com um golpe de reação
+Corrigido um problema onde a conquista Sombra Passageira poderia continuar entre missões
+Corrigido um problema onde a cauda de rato aparecia antes da hora no evento A Oferenda
+Corrigido um problema ao carregar dados de nomes se alguns locais não existem
+Corrigido um problema onde Pega-perna não aplicava a quantidade correta de veneno
+Corrigido um problema onde as górgonas não surgiam no Templo do Silêncio
+Corrigido um problema envolvendo trabalhos com nomes compridos que não cabiam na janela de dicas
+Corrigido um problema onde usar Flechas Incandescentes com Emboscada preparada concedia 
+  +2 de dano à flecha
+Corrigido um problema onde a história do demônio da água podia usar o gênero incorreto da 
+  criatura se o herói se sentisse atraído por outro personagem
+Corrigido um travamento (de modificação?) se uma habilidade de promoção não presente 
+  é exibida
+Corrigido um problema com a opção de "atacar" na escolha mortal do herói usando uma arma artefato
+Corrigido um problema onde Emboscada e Vost podiam atingir várias vezes
+Corrigido um problema onde Chicote de Língua podia puxar inimigos inamovíveis
+Corrigido um problema onde o alcance do arco era lido como 1-8 em vez de 2-8
+Corrigido um problema onde texto de desenvolvedor era exibido para aspectos omissos
+Corrigido um problema com as funcionalidades dos botões Enter e Esc no editor
+Corrigidos alguns erros de digitação
+Editor: Adicionado CustomizeHero Outcome para personalização da cabeça, rosto, cabelo, cores, 
+  e partes adicionais de um herói, ou para aleatorizar um espaço
+Editor: Adicionado o campo requireAspects para partes HumanSkin, para personalizações que
+  aparecem apenas para heróis com certos aspectos
+Editor: Objetos no editor de quadrinhos sob o cursor do mouse agora exibem uma caixa em torno deles
+Editor: Ver Sequência no editor de quadrinhos agora pula para o painel selecionado
+Editor: O editor de quadrinhos agora exibe o efeito no painel lateral (também adicionamos
+  visualização simples para simplificar ajustes de eventos)
+Editor: Adicionados os tipos TIDING_MISC_GENERAL e TIDING_WRAPUP_GENERAL
+  (para que não precisem focar em um herói específico)
+Editor: Escolher Eventos melhorado para notícias e créditos
+Editor: Adicionadas várias teclas de atalho para trapaças do herói selecionado:
+  (as associações também são visíveis no editor de Combate) Ctrl+Shift+H/A/D/S/R: 
+  Adicionadas habilidades de saúde/ações/dano bônus/velocidade/atualização temporários
+Editor: Se colagem múltipla estiver ligada:
+  * agora é possível anexar várias instâncias sem precisar fechar a janela
+  * é possível anexar instâncias em instâncias existentes em listas com Colar
+  * Valores copiados agora exibem um resumo mais legível
+Editor: Os arquivos geradores de nome (como human.names.json) agora são incorporáveis
+Editor: Adicionado o campo abilityForbidAspects para aspectos de habilidade
+Editor: Adicionadas as expressões toDegrees e toRadians
+Editor: Adicionada a expressão between(x, min, max)
+Editor: Adicionada a expressão if(x, pass, fail)
+Editor: Campos de partículas e áudio agora exibem sugestões
+Editor: Adicionado um registro mais legível para testes fracassados
+Editor: Adicionada a opção scoreTiesTrueRandom para alvos BY_SCORE
+Editor: Agora é possível usar Animate Outcome para gerar partículas no mapa geral
+Editor: Trapaças de habilidades, temas e equipamentos agora são executadas imediatamente
+
+
+1.9+438 Eve Vallenlong
+Theme attacks now work with more abilities:
+  * Ranged attacks work with Guardian, Sentinel, 
+      Broadswipes, and Riposte
+  * Melee attacks work with Ember Arrows,  
+      Piercing Shots, Quellingmoss, Archery, and Ambush.
+Cone of fire and thorn lash now get +2 damage from upgrade
+  (instead of damage scaling)
+Ember Arrows now grants theme attacks a flat +1 damage
+  (instead of + potency damage)
+Protector ability now works with ranged theme attacks
+Crossbow damage increased by 1, accuracy buff removed
+Spelltouched stats adjusted:
+  New: +2 Potency, -1 Bonus Damage, +10 Recovery Rate
+  Old: +2 Potency, -0.5 Bonus Damage, +5 Recovery Rate,
+         +10 Retirement Age
+Spiritblade attacks trigger actual hero attacks
+  (and uses those heroes' passives: thornfang, broadswipes, etc)
+Battledance Whirl now always lets you move at least one tile
+Scout/Build Bridge/Pass banners now show up on unscouted tiles
+Weird, Shame, and Slacker quest buffs don't persist over legacy
+Build Bridge/Pass options show up when clicking scouted tiles
+  if heroes are closer to source tile than target tile
+Overland tile glowing now renders above unscouted fog of war
+Fire smoke particles greatly reduced when there's a bunch
+Skeleton curse ability is now a swift action
+New sound effects for some abilities
+Hook quests now require relationship tiers 3/3/4 instead of 3/4/5
+Completed Hooks now show checkmarks in character sheet History
+New VFX for star, vine, storm, fire, crow, hill, morthagi,
+  skeletal, and tree theme skins
+Gear comparisons now show gear abilities and special aspects
+Personality stats now have button to move a stat to the top
+Personality stat buttons are now aligned next to each other
+Controller adjustments:
+  * Split "Next Hero or Target" binding into separate bindings.
+  * Previous Bindings:
+    - Next/Prev Hero (when on Move) or Target (when on Ability): 
+        Right/Left Bumper or Down/Up D-Pad
+    - Next/Prev Ability: Right/Left D-Pad
+  * New Bindings:
+    - Next/Prev Hero: Down/Up D-Pad
+    - Next/Prev Ability: Right/Left Bumper or Right/Left D-Pad
+    - Next/Prev Target: Unmapped by default
+  * Ability tooltips disappear when you move the cursor or camera
+    (and reappear after 1.5s, or when switching abilities)
+  * Right joystick now scrolls UI scrollbars
+  * Camera movement & selection now respects camera orientation
+  * Overland auto-selects the tile with the most heroes on it
+  * Target selection angles now based on center of entities
+  * Tooltips that are too large don't show up centered on screen
+  * Fixed controller navigation for calamity card screen
+  * Controller no longer auto-focuses on company button.
+Added feather icon next to abilities that are swift by default
+  but are now single because you already used a swift action
+Added sparkles to ability buttons for some non-turn-ending attacks
+  (battledance attacks, swift action wolf bite, prepared shot, etc)
+New image for the Great One
+Adjusted keyboard bindings screen to be more organized
+Steam Deck and Steam Big Picture Mode:
+  * Selecting a textbox with a controller now shows Steam keyboard
+  * Many screens fit better at smaller resolutions (see below)
+Adjusted some UI to work better at small resolutions/large UI size:
+  (Specifically, these screens should work better at a 1080x720
+  resolution with the "Bigger" UI option selected; useful for 
+  small screens like the Steam Deck)
+  * Gear Upgrades
+  * Party Select
+  * Character Sheet
+  * Calamities Popups
+  * Interval Summary Screen
+  * Promotion Dialog
+  * Replace Item Dialog
+Fix a bug with controller camera movement when switching units
+Fix a bug where Engage prevented stonewalling
+Fix a bug where Hago cub could be kept permanently
+Fix a bug where lonely cost history lines were incorrectly applied
+  (helper and main hero lines were swapped)
+Fix a bug where Batchby engage procs protector
+Fix a bug where some comics were missing chinese translation
+Fix a bug where armor category headers could appear multiple times
+Fix a bug where Ticking Tomb victory wasn't disabled
+Fix a bug where a hair option was showing up twice
+Fix a bug where hovered overland abilities didn't show tooltips
+Fix a bug with button prompt positioning and size
+Fix a bug where piercing shots didn't work with all ranged attacks.
+Fix a bug where controller could open non-hero character sheets
+Fix a bug where missing mods box appearing caused a crash
+Fix a bug where interval could crash if a non-hero retired. 
+Fix a bug where Spiritblade attacks worked on stunned heroes
+Fix a bug where ambush worked while stasised
+Fix a bug with low stunt chances for Chain Lightning and Discus
+Fix a controller bug with some scenery with diagonal footprints 
+  (stuff like barriers couldn't be selected)
+Fix a few places that would show keyboard hints in controller mode
+Fix a bug where switching heroes didn't properly show hero tooltip
+Fix a crash with the interval
+Fix a bug where dev option confirmAbilityUse could softlock games
+Fix some typos
+Tools: overrideParticleScript option to allow particle overrides
+Tools: Debug ability target fail log info is now more clear
+Tools: Added ifOwnerAspects and ifNoOwnerAspects arrays to Skinlayer
+Tools: Can now use feedback.onlyShowIfVisibleTerrain on regions
+
+1.8+428 Mara Mallard
+GOG Integration!
+Legacy Browser Improvements:
+  * Filter by legacy tier, class and playability
+  * Hero list view for easier playability setting
+  * Search bar to filter by aspects, e.g. wolftouched
+  * Past versions of a hero can be viewed
+  * Heroes should move around less when customizing
+  * Option to customize hero age
+New Events:
+  * Early to be Alone
+Rewritten Events: 
+  * Phantom of the Range (from: The Shape of Things to Come)
+  * Paradise
+  * Flowers For No One (from: Ticking Tomb)
+Improved controller functionality 
+New sfx for certain abilities
+Added option to hide in-game console
+Overlapping ability buttons look better
+Moved star in gear upgrades to top left
+Crag Eagle roll difficulty adjusted
+Controller navigation now wraps on in-game menus
+All hairs should appear properly on all heads now
+Added custom Dreamloom map
+Fix a bug with Pulling Threads skipping in multiplayer
+Fix a bug with legacy file saving in multiplayer
+  (earning achievements, legacy heroes, completing tutorial)
+Fix a bug with premature comic skips in multiplayer
+Fix a bug where base monster calamities could never be removed
+Fix a bug where lower tier calamities removed before higher ones
+Fix a bug where calamity cards could jitter up and down at lwo fps
+Fix a bug with stone stunt pin range on multi-tile enemies
+Fix a bug where Needed Elsewhere choice didn't recruit a hero
+Fix a bug with incorrect station job names
+Fix a bug where acid damage was reduced by walling
+Fix a bug with the Low Road missing escape regions
+Fix a bug where Harvest kills wouldn't proc vfx
+Fix a bug where shooting star feedback was incorrect
+Fix a rare bug where the gear dialogue wouldn't show up
+Fix a crash from movement prediction
+Fix a bug with Silver and Shadows pet targeting
+Fix some typos
+Tools: Theme skin data now stored in aspects, for modding support
+  (no longer hooked up directly to themes)
+
+
+1.7+420 Kevkas Swordhand Hotfix 2
+Add an option to completely disable EOS (and crossplay)
+Fix how many female hairs look on male heads
+Fix bug where Engage would sometimes immediately cancel
+
+1.7+419 Kevkas Swordhand Hotfix
+Fix an issue with Chinese translation
+Fix tier 0 weapons not upgrading with spirits
+
+1.7+416 Kevkas Swordhand
+Crossplay with Epic Games!
+Family Business Revision!
+New Tidings!
+Increased the weight of Heirloom Spring event
+Added Colorblind options!
+Added view button to achievement popups
+Added achievement button to Legacy menu
+Mythweaver potency buff can be gained from ruins scenery
+Rogue+ now causes heroes to enter grayplane on stunt
+Bloodrage reworked:
+  * Old: Extra Damage per 2 HP missing = 1 + 1/3 Potency
+  * New: Linear based on % missing health, 
+        up to 2 + 1/2 Potency + 1/4 Max HP
+        Also, only affects melee/ranged attacks
+Broadswipes damage rework:
+  * Old: Bonus Damage + Potency
+        Upgrade grants +2 Damage
+  * New: 2 + 1/2(Bonus Damage+Potency)
+        Upgrade increases scaling to full
+Added sfx for some abiliti
+Bloodrage now shows current damage bonus gained
+Abilities now show if they're melee or ranged
+Adjusted several incorrect references to "Physical Attacks"
+Shieldshear no longer counts as a melee ability
+Meteor Strike no longer counts as a ranged ability
+Some wings are now folded in non-combat scenarios
+Can now set custom hero turn order via Options > This Game
+Empowered bone weapons revert to normal over legacy
+Heroes without soulmates present won't have random kids
+Engage "line of sight" being broken is now more predictable
+Engage+ has clearer feedback now
+Added particle and filter effects to fire and poison
+Fire damage animation takes much less time
+Multi: Control over a hero can be set in the recruit dialogue
+Multi: Large pets are controlled by same player as their owner
+Multi: Heroes you control are automatically selected first 
+Added icons for legacy hero ability choices
+Added store button to main menu
+Improved feedback for heroes with melee+range theme attacks
+Theme aspects like fire immunity now show in character sheet
+Controller invalid clicks no longer deselect current action
+Controller improved navigation in several dialogs
+Fix multiplayer bug with customizing heroes at the same time
+Fix a bug with Loyal hook quest targeting
+Fix a bug where Storied Bones improved multiple hero's weapons
+Fix a bug where Ghost Town hook would spawn an extra town
+Fix a bug where skeleton theme rivalry had weird interactions
+Fix a bug with Untouchable preventing attacks on walling allies
+Fix a bug where Chaos Whorl could be used on lone enemies
+Fix a bug where non-QWERTY layouts showed bad hints
+Fix a bug where Salvage wouldn't destroy certain scenery
+Fix a bug where Connect to IP multiplayer didn't work
+Fix a bug with scorpion tail formula
+Fix a bug with Sharpshooter and theme ability feedback
+Fix a bug where longreach improved new flight abilities
+Fix a bug where sentinel and protector could ignore stasis
+Fix some crashes
+Fix some typos
+Fix some backend text
+Tools: "keepOverLegacy" option to keep augments over legacy
+Tools: Added Theme editor!
+Tools: Added "Create Branch Event" button to Branch Outcome
+Tools: Single-line text fields expand when editing
+Tools: Color-coding for comic actors of different types
+Tools: Improvements to Comic Editor "Auto-Match"
+
+
+1.6+401 Edina Gramling Hotfix
+Fix a bug where spirits weren't immune to fire
+Fix a bug where chaos whorl causes a crash
+Fix a bug where wolf howl would prevent turn end
+Fix a bug where random romances overrode npc romances
+Fix a bug with the incursion animation timer
+Fix a bug where shadestride didn't work on hunters
+Fix some typos
+
+1.6+399 Edina Gramling
+New Events: 
+  * For Their Own
+  * Houses in the Heights 
+Removed Event: 
+  * The Low Road
+Disabled Event:
+  * What If We Were The Bad Guys
+Added combat map to Out of the Rain event
+Added two credits comics for Generic Campaigns
+Added credits comics for Ulstryx, Enduring, and Monarchs
+Disabled Mine Tiding
+Warding Rework:
+  * Each piece of warding absorbs one damage
+  * Warding regenerates at the start of the unit's next turn
+  * Removed pierce from magic abilities
+  * Tuned down some monster magic damage
+  * Tuned up some monster warding
+Theme Upgrades!
+(These can appear in the upgrade slots when leveling)
+  * (Bear) Ursine Hunger
+  * (Botanical) Fatal Flora
+  * (Celestial) Meteor Strike
+  * (Crow Wings) Fly
+  * (Wolf) Howl
+  * (Elmsoul) Deep Roots
+  * (Fire) Living Hearth
+  * (Foothill) Shard Skin
+  * (Gem) Crystal Chrysalis
+  * (Morthificial) Salvage
+  * (Shadow) Shadestride
+  * (Skeleton) Curse
+  * (Storm) Feedback Loop
+  * (Sylvan) Chaos Whorl
+  * (Hawk Wings) Talon Dive
+  * (Scorpion Tail) Prehensile Piercer
+  * (Pilot Wings) Airlift
+  * (Skunk Tail) Staggering Spray
+  * (Frog Head) Tongue Whip
+  * (Fox Tail) Nimble Nature
+Pet Upgrades!
+  * (Fire Chicken) Covering Fire
+  * (Rat) Erratic Movement
+  * (Bird) Mark Prey
+  * (Duck) Alarming Quack
+  * (Avenger) Protector
+  * (Critter) Trinket Hunter
+Number of undos are no longer shown at the end of a game
+Ability upgrades can show up in 2 of the base ability slots
+Indignance now breaks greyplane
+Tongue Whip no longer has a cooldown
+Some hunter armor now has warding
+Fire Chicken and Fire theme now grant fire immunity
+Thornlash now scales like other themes and has a damage upgrade
+Crippling Strikes now works with all ranged attacks
+Hook quests that fail to spawn will try to spawn again sooner
+Defeating incursions in battle sets incursion timer back
+Sunswallower's Wake hero slots now have descriptions
+Sunswallower's Wake added ch3 mission failure case
+Added new scenery
+Added site images for all the bones of summer
+Theme legs have stats adjusted
+Added new icons to some abilities
+Adjusted scenery based on sites
+Added How To Play screen for Armor and Warding
+Fix a bug where line attacks couldn't target enemies on blazes
+Fix a bug where the right bard calamity wouldn't appear
+Fix a bug where terrorbird death would cause flanking
+Fix a bug where a hero would attack a site alone
+Fix a bug where shields and walling would reduce fire damage
+Fix a bug where terrorbird death reduced accuracy
+Fix a bug where achievement didn't proc in a capstone
+Fix a bug where incursions burnt out and granted 2 LP
+Fix a bug where if timer stopped at 25/50 it wouldn't disappear
+Fix a bug where Drifter event was near imposssible to get
+Fix a bug where an armless hero could proc Avenger event
+Fix a bug where staggron could summon while stunned
+Fix a bug where d-pad didn't wrap left on the ability bar
+Fix a bug with hook_Proud and fortheScavenging
+Fix a bug where item text had no character limit
+Fix a bug where Sunswallower Ch.1 Capstone would soft lock
+Fix a bug where heroes gained from events start at lvl 0
+Fix a bug with incorrect reported damage in a mortal choice
+Fix a bug with prime stats in custom history lines
+Fix a bug with tags in Black Castle Ruins
+Fix a bug where monarchs rescuee had no starting stats
+Fix a bug where Unpaid Bills event could show dead hero 
+Fix a bug where pet/thrixl would targeted in mortal choice
+Fix a bug where genders were swapped in wolf mortal choice
+Fix a bug where 0 Warded combat text appeared
+Fix a bug where hook quest spawns too many foes
+Fix a bug where unprocced hook quests would prevent others
+Fix some typos
+
+
+1.5+392 The Sunswallower's Wake Hotfix
+Fix a bug where wrong monster group could show in comic
+Fix calamities and comics sometimes not showing on game start
+Fix a bug where a mystic legacy recruit had farmer armor
+Fix a map gen issue in Sunswallower's Wake that made Ch2 fail
+Fix multiplayer hook quest and station comic refresh bug
+Added a cheat to move characters on overland
+Fix an issue with scenery in Sunswallower Ch1 capstone fight
+Add safeguard against bad monster data breaking plots
+
+1.5+389 The Sunswallower's Wake
+New Campaign! A three chapter legacy story
+Can now click unscouted tile to build bridge/pass
+Night Altar map updated
+Lifeforge Keystone map updated
+Hook Proud update
+Offhand poison now applies 2 poison to weapons
+Credit snapshots now in sepia tone
+Point light improvements
+Split incursions are now half the size of full ones
+Broken legacy heroes can be fixed by reloading their campaign
+Fix a multiplayer bug where events would repeat
+Fix a bug where percentages didn't appear for Jigsaw event
+Fix a bug with hook quests
+Fix a multiplayer bug with some legacy hero recruit events
+Fix a bug where ranged attack animations would cut off
+Fix a bug where skeleton would get age-based tiding
+Fixed memory leaks that caused lag and crashes over time
+Fix a bug where Ecthis ch4 event wouldn't occur
+Fix a bug where stat buffs from history lines weren't correct
+Fix some credits comics that could show dead heroes
+Fix some typos
+Tools: Added auto-match option to comic editor, for testing
+
+
+
+1.4+378 Joria Hotfix 2
+fix a blocker when loading games
+
+1.4+377 Joria Hotfix
+Fix bug where sometimes options and save files were invisible
+Fix several bugs with item names, blurbs, and spawning
+
+1.4+375 Joria
+New Artifact Weapons:
+* Baleblade
+* Eaglewing
+* Firling Wand
+* Frostfang
+* Winterfur Staff
+* Sojourner
+* Icebreaker
+* Longwatch Lamp
+* Mothbite
+New Hairs!
+New Event: For the Scavenging
+Revised Events:
+ * Down The Hatch
+Incursion maps edited to be smaller and more focused
+Water weapons now only deal 1 stunt damage for all weapon tiers
+Reduced bone spear and empowered bone spear potency
+Drop rates increased for bows, crossbows, staves, and wands
+Skeleton now +2 Potency/Spell Damage instead of +4 Spell Damage
+Increased range of skunk spray ability
+Swan scepter now only grants one free interfusion per turn
+Wardrobes now only spawn units if within 12 tiles of a hero
+Takes slightly longer to select new abilities to prevent mistakes
+Slightly reduced enemy spawns on the Ancient Wall mission
+Tier 3 starseed wand now grants two warding instead of one
+Adjusted stats on Lockbreaker and Minotaur axe artifacts
+Fix a bug where some attack animations were cut off during stunts
+Fix a bug with blank unique monster cards
+Fix a bug where deleting an account with mods would crash
+Fix a bug where listed witherbolt damage was inaccurate
+Fix a bug with multiplayer disconnects
+Fix a bug where reloading before recruit would prevent recruiting
+Fix a bug where Weldlings fire wall wouldn't respect engage
+Fix a bug with Paladin upgrade description
+Fix a bug where stat buffs from history lines weren't correct
+Fix a bug where heroic death was forbidden for three heroes
+Fix a bug with the door in Ecthis chapter 4 capstone
+Fix a bug where Archery with some theme attacks could hit allies
+Fix a bug where tree arm bash would show incorrect damage amount
+Fix a bug where tree arm would incorrectly add to the achievement
+Fix a bug where Church of Dale recruit could be unreachable
+Fix a bug where a farmer could be recruited in Monarchs campaign
+Fix a bug with bonfire scenery backend text
+Fix a bug where theme skins could cause slow hero customization
+Fix some typos
+Tools: Added modulo operator (%)
+Tools: Added customCard field to StepM_SpawnExact
+Tools: Added SEASON, YEAR, and DAY_OF_MONTH expression variables
+Tools: Show position of MapDetail validation errors
+Tools: Effect/Aspect fields show STUBS in suggestion tooltips
+Tools: Added StepM_GetUnitsOnTiles
+
+
+1.3+367
+Disable Down the Hatch revision (not ready)
+
+1.3+366 Dolse Ponder
+Fix some untranslated text in Chinese
+Fix some typos and small text issues
+
+1.3+363 Dolse Ponder
+New Event: Bad Mustard
+New Event: Bones and Crows and Nightly Things
+New Event: Token of Affection
+New Event: Flickerings
+Revised Events:
+ * Hidden Passages
+ * Heart of Stone
+New Tidings
+New Wrapups
+New Achievements dialog art
+New male face option
+Research Site and Secure Site events have been updated
+Thorn lash is now considered a ranged attack
+Added interface option to skip comic panel animations
+Splintersalvo now shows on bar if one piece of wood is interfused
+Import Legacy now lets you select all or none of the heroes
+Added better logging for failure to login with Multiplayer
+New particle effect for Usric Raze ability
+Fix bug where comic text could be different for different players
+Fix bug where escape zones wouldn't appear for custom maps
+Fix bug where enemy mystics targeted themselves with splinterblast
+Fix bug where hoof and horn event would end incorrectly
+Fix bug where prepared shot wouldn't work with Sharpshooter
+Fix bug where pinned reduced accuracy by 30% instead of 15%
+Fix bug where family business history lines would break
+Fix bug with catching spirits where scenery used to be
+Fix bug where a hero could use prepared shot while stunned
+Fix that "waiting for other players" could show up in singleplayer
+Fix bug where AI pathfinding could get stuck on certain maps
+Fix bug where dead heroes show up in escape mission events
+Fix bug where a maiming would cause a hero to lose both weapons
+Fix some ability text using used first person to reference a hero
+Fix bug where haunt in specterstep could still be hit by flanking
+Fix bug where legacy relationship lock button would go off screen
+Fix bug where hook quest events would restart after finishing
+Fix bug with the hitbox for the hook quest button on portraits
+Fix bug where early Cvawn events wouldn't show any text
+Fix bug where wiki links would lead to generic pages
+Fix bug where Ecthis ch. 4 capstone had an unreachable area
+Fix bug where Fenspear heir history would display too much text
+Fix bug where Vigilance+ would only grant 2 reaction strikes
+Fix bug with Wolf Price hero images
+Fix bug where Terrorbird death would reduce accuracy by 1
+Fix bug where Indignance would be removed when escaping a mission
+Fix bug where Redcloak could use Fireball through walls
+Fix bug where a town recruit story would use a maimed hero
+Fix bug where Indignance didn't work on tiles with scenery on them
+Fix bug where Paladin+ would allow for reaction strikes = potency
+Fix bug with some Cvawn images
+Fix bug where saving while getting gear would create an empty map
+Fix bug where Ambush and Rogue would lose greyplane on a kill
+Fix bug with multiple creatures engaging the same hero
+Fix bug with the Zealous Leap cooldown
+Fix bug with the Shieldshear cooldown
+Fix bug with missing buffed Chosen image on Linux
+Fix bug with multiplayer where events would loop back to the start
+Fix some typos
+Fix a crash bug
+Tools: save/load/quit enabled for Carved games when cheating
+Tools: Added greaterThan, lessThan, and EXISTS expressions
+Tools: Can now see AI ability use score via AI Behavior Inspection
+Tools: Added SetThreatFlavor Outcome
+Tools: Added CAN_FORM_ROMANCE expression variable
+Tools: Added "logs" button to content editor, to view log lines
+Tools: Plot editor more specific about where errors happen
+Tools: Added shipWith, rivalOf, friendOf, and loverOf tags
+
+
+
+1.2+356 Uvbera Armistia Hotfix
+Adjust eagle talisman stats
+Fix bug with legacy hero select scrolling incorrectly
+Fix a crash message when customizing at the end of missions
+Translation: added <namePossessive> tag
+Some typos and text tweaks
+
+1.2+353 Uvbera Armistia
+New Chapters for Generic Campaigns!
+  * The Ghost Town (mid)
+  * The Library (mid)
+  * The Potionry (mid)
+  * The Temple of Silence (final)
+  * The Unseen Orchard (final)
+  * The Warren (final)
+New Tidings and Wrapups
+New music for All the Bones of Summer final fight
+New Sound Effects for Tinker and Stormthroat
+New Scenery for various maps
+New clothes for some NPCs
+Monster calamity view now shows monster tiers
+Total number of calamity cards drawn now shown
+Ember Arrows now works when standing next to fire lamps
+Ambush missions only ever spawn 2 cards now
+Lit fiery lamps now leave behind fire when destroyed
+Show "You're the leader" if everyone else is reading along
+An animation plays when comic choices are made
+An animation plays when hero upgrades are selected
+Gear choice in MP now shows who gear was given to
+Legacy Heroes now always keep offhand items
+Character sheets now include heroes you're recruiting
+All the Bones of Summer ch3 capstone now grants gear
+New interface options for Ability Animation Speed
+Rerolling abilities now only costs 2LP (+2 for each reroll)
+Thrixl Chrysalis no longer move
+Boss monster added to Ringstone generic capstone
+Wilderness_explorers event turned off
+Action points are now shown at the top of the screen by default
+The menu can now be accessed during interval tidings/choices/omens
+Buffs/debuffs now show up as green and red in attack predictions
+Attack predictions now show the value of added aspects
+Friendly fire warning now shows up for shred and debuffs
+Answer to Austerity pinecone choice now shows for legacy pinecones
+New Thrixl Bard/Thrusk calamity
+More cottage and house facades!
+Fix a bug where backslam could move immovable foes
+Fixed a bug where Found Family history showed backend text
+Fix a bug where Engage+ didn't give 2 armor per foe
+Fix a bug with hurlaxe audio
+Fix a bug where enemy strength 0 would show for some missions
+Fix a bug where Fenspear heir had random history
+Fix a bug where rerolling parents could keep child's connection
+Fix a crash bug with the legacy promote dialogue
+Fix a bug where hero coins wouldn't display right in the interval
+Fix some typos
+
+
+
+1.1+348 Aremella Errowlair Hotfix 2
+Add special scars for acid and weldling mortal choices
+Adjust frequency of various stations
+Fix a bug that caused broken saves when saving during some stories
+Fix a bug promotions in 3 chapter campaigns
+
+1.1+346 Aremella Errowlair Hotfix
+Fix a crash with Entanglement event
+
+1.1+345 Aremella Errowlair
+Years of Peace are no longer based on performance
+Retirement now grants 50% more XP
+New Theme Skins Added!
+Multiplayer: Added a Disconnect button to in-game menu for clients
+Legacy Campaigns now act more like normal campaigns:
+  * Players can now recruit from towns
+  * Characters can have children that join the party
+  * Legacy heroes are no longer granted between chapters
+Defenses built now grant farmers improved defense
+Swift action now appears as a feather icon
+Option, resource, and calamity menus are more easily accessible
+Leftover Legacy Points can now be used to promote more heroes
+Added coins to show when others are viewing the same comic as you
+Coins indicate which player you're waiting on at the end of a comic
+Players can now pay legacy points to reroll ability upgrades
+Pressing escape now closes calamity window if none can be canceled
+Towns can now contain up to 10 legacy heroes. (Up from 6)
+Broadswipes+ now deals +2 damage instead of x2
+Ignite can now only be used once per turn
+Flashcone now deals damage equal to potency + spell damage
+Reduced difficulty of Cavernquarry keystone
+Adjusted Spawns for Enduring War first fight
+Cvawn: When overland fires start, time stops
+Adjusted Carved in Stone description
+Action Point indicators now hover, show swift actions
+Added interface option to turn on additional action point indicator
+Added message after Tutorial is completed in Ulstryx
+Cvawn can no longer be ensnared
+Fix some crash bugs
+Fix bug where armor value on tooltip wouldn't account for shred
+Fix bug where Heroism prevented Wild Grasp from being Swift
+Fix bug where kill counter wouldn't update immediately
+Fix bug that caused sync error after mortal choice in some cases
+Fix bug where retiring heroes can grant other retirees XP
+Fix bug where Waterling Tiding would show wrong gender for waterling
+Fix bug where Darts would cower after being killed
+Fix bug where Engage could cause armor to go negative
+Fix bug where Elmish Jealousy ability remained after mortal choice
+Fix bug so Extinguish Fire job goes away if the tile is burnt
+Fix bug where volley of arrows wouldn't show cooldown
+Fix bug where Tier 0 Legacy heroes could be put into legacy again
+Fix bug where Hitch a Ride event would appear more than once a game
+Fix bug where saving in a Carved in Stone run could corrupt the save
+Fix bug where monsters could use swift actions after moving twice
+Fix bug where a placeholder recruit event would show
+Fix bug where knockback wouldn't effect monsters on the same tile
+Fix bug where Hammer item had no stats
+Fix bug where Ecthis Chapter 3 picked a hero who already had wings
+Fix bug where Mothwings could be granted twice
+Fix bug where prepared shot and vine limbs didn't do anything
+Fix bug where vigilance would still scale with potency
+Fix bug where size of >1280x720 would cause window to be uncentered
+Fix some typos
+Fix some backend text bugs
+
+
+
+1.0+340 All the Bones of Summer Hotfix 7
+Chinese translation tweaks
+Can now put heroes into legacy after a game over(!)
+Greatly reduced bandwidth use in overland (Multiplayer Lag)
+Made multiplayer mouse smooth again
+New female face
+Updated crow head visuals
+Improved player account save/load robustness
+Added error dialogs when account or legacy fails to load
+Add error dialogs for some rare cases
+New option to turn off camera angle snap
+New option option to turn off overland notifications
+New option to speed up overland time
+Scrollbars are now always visible in most places
+Adjusted some tidings
+Broken legacy entries will no longer crash the game
+Tentside victory handles family better
+Oldwane dagger now grants spell damage (consistent w/ theme)
+One-panel comics (jobs mostly) now show choices immediately
+Fix bug with read along in multiplayer
+Fix bug with Thnarr's Accordica and ignite / arches
+Fix bug where unclickable banners would show on sites
+Fix multiplayer bug with dialogs not opening for all
+Fix bug where achievements wouldn't show on steam until exit
+Fix an issue with morthagi theme achievements
+Fix some cases where spirits failed to spawn
+Fix a bug/exploit in monarchs final mission
+Fix Cutthroat Competitors achievement logic
+Fix bug with retirement showing too soon in some places
+Fix a possible softlock in some missions
+Fix rounding errors in stat calculations
+Fix a crash when typing only a space as a name
+Fix wrong combat modifier in Volchasm
+Fix some rare crash cases
+Fix dead heroes in name the company
+Fix some generic intros to work better with various parties
+Fix some bugs with dead heroes in tidings
+Fix Song for Someday Gone battle difficulty
+Fix some event targeting bugs
+Fix some broken tooltips
+Fix some typos
+Fix some visual comic issues
+
+
+1.0+332 All the Bones of Summer Hotfix 6
+New Event: Company of Crows
+Removed Event: As the Crow Flies
+Achievements now work in multiplayer
+Mouse cursor should behave better on mac retina
+Option to turn off custom cursor
+Chinese translation tweaks
+Customizing heroes in multiplayer works better
+Improved edge pan behavior when not capturing mouse
+Multiplayer cursors in character sheet only if same hero
+Multiplayer slots dialog now syncs up better
+Fix bug where game could get stuck in final preparations
+Fix bug with Eluna and Bones of Summer history lines
+Fix Monarchs Ch2 could get stuck if town destroyed
+Fix some typos and targeting issues
+
+1.0+329 All the Bones of Summer Hotfix 5
+Chinese translation tweaks
+Clarified 5-hero starts as intended for multiplayer
+Thunder stomp no longer goes through walls
+Riposte+ no longer counts stepping in fire
+Adjust legacy save/load code slightly
+Fix bug where morthagi generic start would fail
+Fixed chain lightning 3rd bounce damage
+Fixed some back end text and typos
+
+1.0+325 All the Bones of Summer Hotfix 4
+Chinese translation tweaks
+Capture Mouse option now works pretty well (tech limitations)
+Max level heroes no longer take XP
+Improved legacy backup and recovery logic
+Reduce network traffic for remote cursors (but looks choppier)
+Use steam message buffering to improve multiplayer robustness
+3 Hook quest achievement now retroactively granted
+Fix Mythwalker achievement bug
+Fixed bug where enemies could sometimes not die
+Fix rare bug with Unburied omen
+Fix several rare crashes
+Fix crash if controller lib can't load
+Fixed phantomflare file case issue (linux)
+Fixed bug where Scythewinds intro would never trigger
+Fixed some back end text and typos
+
+1.0+320 All the Bones of Summer Hotfix 3
+Chinese translation fixes
+New audio option to mute game when it loses focus
+Game now ignores controller input when not focused
+Reduce Suneater damage
+Attempt to fix no sound / steamApi dll issue on some machines
+Fix targeting in Another Soul to Stand
+Reduce frequency of Distant Thunder event
+Fix some events firing without relevant enemy present
+Fix some typos
+
+1.0+318 All the Bones of Summer Hotfix 2
+Chinese translation fixes
+Adjust Flirt hook quest
+Can use middle mouse button to pan in missions
+Achievements now checked upon loading the game
+Increased XP for All the Bones of Summer and Generics plot fights
+Star dance no longer occurs if you have no heroes eligible for theme
+Fix a crash with multiple simultaneous deaths
+Fix bug with Untouchable+
+Fix several situational crash bugs
+Fix mouse pan at screen edge on borderless
+Fix Vigorflow+ speed buff not withdrawing
+Fix and adjust some item descriptions
+Fix hook_WanderlustThisCampaign
+Fix turncoat achievement
+Fix skeleton terrify achievement
+Fix bad name tags in Hero Worship
+Fix some item descriptions
+
+1.0+316 All the Bones of Summer
+Fix sometimes too many darts on Royal Arms capstone
+Fix typos and missing text
+
+
+1.0 All the Bones of Summer
+New Campaign! A 5 Chapter Story with Drauven
+Generic Campaign Events and Maps! (~20 chapters done, more coming)
+Many more Mortal Choices added
+Final Moment events added (when a hero dies)
+Visual and some text updates to Ulstryx
+Achievements have been implemented
+Achievements unlock concept art
+Some Achievements unlock Theme Skins
+Theme Skins are cosmetic variations for (some) skins
+Abilities can now be upgraded on level up! Ability rebalance!
+(A fourth slot for upgrades has been added to the level up screen)
+WARRIOR ABILITIES
+  * Upgraded Backslam: Knock an enemy into another to deal damage
+  * Upgraded Battledance: Gain free movement after 1st melee attack 
+  * Upgraded Bloodrage: new active ability +2 dmg, can't die this turn
+  * Upgraded Broadswipes: Double broadswipes damage
+  * Upgraded Engage: Engages all adjacent enemies, grants +2 armor for each
+  * Upgraded Paladin: Guardian activates even if you attacked this turn
+  * Upgraded Raider: double scenery damage, can start fires on enemies
+  * Sentinel No longer interrupts enemy movement
+  * Upgraded Sentinel: Interrupts movement
+  * Upgraded Shieldshear: No cooldown, can use multiple times per turn
+  * Stalwart now grants a hero armor & warding at the cost of speed
+  * Upgraded Stalwart: While active, you are immune to status effects
+  * Upgraded Thundering Challenge: Becomes a small area of effect
+  * Upgraded Untouchable: Effect doesn't wear off
+  * Vigilance no longer scales with potency, 2 uses per turn
+  * Upgraded Vigilance: 4 reaction strikes per turn
+  * Upgraded Wolfcall: Grants +1 flanking damage to affected heroes
+  * Upgraded Zealous Leap: Clears pin, can be used every turn
+HUNTER ABILITIES
+  * Upgraded Ambush: Interrupts movement
+  * Upgraded Archery: +30 defense against ranged attacks
+  * Upgraded Crippling Strikes: +2 damage vs hobbled foes
+  * Upgraded Ember Arrows: new active to jump to a nearby blaze
+  * Upgraded Flashcone: Puts all affected heroes in grayplane, +1 use
+  * Upgraded Foxflight: Grants 3 automatic dodges instead of 2
+  * Upgraded Jumpjaw: +1 use, shreds 1 armor
+  * Upgraded Piercing shots: Ranged attacks shred 1 armor
+  * Upgraded Quellingmoss: +1 poison to attacks and aoe
+  * Upgraded Rogue: Attacks against damaged enemies deals +1 damage
+  * Thornfang no longer scales with potency, 1 use per turn
+  * Upgraded Thornfang: Can be used three times per turn
+  * Upgraded Through Shot: hit all in a line -1 dmg each
+MYSTIC ABILITIES
+  * Upgraded Arches: Single action, no cooldown
+  * Upgraded Compulsion: Becomes a swift action, still once per turn
+  * Upgraded Earthscribe:
+    ** grants improved HP and range to Bonewall
+    ** +2 temp hp to the Rock Shield ability
+    ** Calcify grants extra +1 armor, warding, and tmep hp
+  * Upgraded Elementalist:
+    ** Infernal Rain now an area of effect
+    ** Splinterblast and splintersalvo +1 damage and hobble.
+  * Stunning Barrage damage +1, reduced stun chance to 50%
+  * Upgraded Humanist:
+    ** Shackles deals 2x damage
+    ** Shardnado doesn't expire
+    ** Stunning Barrage 100% chance to stun
+  * Upgraded Ignite: You can now ignite tiles without debris
+  * Upgraded Indignance: Damage and Range increase by 1
+  * Mythweaver: Loredump stuns for two turns on hit
+  * Upgraded Mythweaver:
+    ** Loredump damage and range increased
+    ** Increases the damage and hobble of Greater Constrict.
+    ** Lightning Learning: book or statue, +3 potency to ally, decays
+  * Upgraded Naturalist:
+    ** Wild Grasp becomes a swift action. 
+    ** Roots and Shoots: single action AOE creates plant scenery
+  * Upgraded Openmind:
+    ** Increased range of Interfuse 
+    ** Withdraw now free
+  * Upgraded Soulsplitting: 2 damage prevented for each interfusion
+  * Upgraded Spiritblade:
+    ** Blazing Sword and Burning Arrow now single action attacks
+    ** Heroes walling with an intefused object gain +10 stunt.
+  * Upgraded Vigorflow: +1 damage and +1 speed per intefusion
+COMMON ABILITIES
+  * Upgraded Aid: +1 use per combat
+  * Upgraded Bard: Swellsong: +50 stunt to nearby allies
+  * Bowmaster name changed to Sharpshooter
+  * Sharpshooter improves all ranged abilities
+  * Upgraded Sharpshooter: +1 Range with ranged attacks
+  * Upgraded Endurance: +1 armor and +2 warding
+  * Upgraded Hardiness: +50% health, +healing rate, +5 retirement age
+  * Upgraded Heroism: +1 action points
+  * Upgraded Inspiration: increase aura size and grant 1 warding
+  * Upgraded Long reach: + 1.6 range to all abilities and attacks
+  * Upgraded Riposte: when hit, +20 dodge until missed, stacks
+  * Tinker now grants an ally +3 armor and +2 warding
+  * Upgraded Tinker: +1 use per combat
+  * Upgraded Viciousness : +1 damage on melee attacks
+  * Upgraded Windwalk: +1 use per combat
+  * Upgraded Wisdom: +10 retirement age, +15 charisma
+THEMES
+  * Theme attack scaling has been halved.
+  * Themes attacks all have an upgrade ability now
+  * Upgraded theme attack doubles scaling and +1 base damage
+New music for the Legacy Browser!
+Reduce monster card draw by 1 for Legacy campaign Ch1,2,3
+Dart's Cower ability is removed if they attack while it's active
+Stunned removes Dart's Cower ability
+Attack Scenery now deals a minimum amount of damage
+Into the Underworld visual update
+Deeven ranged attack is now magic damage
+Reduced terror bird shriek range
+Specterstep cooldown is slightly increased
+Haunts are now easier to see while using Specterstep
+Deafened is now a status effect
+Stormthroat bird no longer stacks
+Reduced staunching spores range by 1
+Choosing a face/hairstyle etc no longer closes dropdown
+Generic campaigns can now start with any classes
+Temp armor will be used up before permanent armor
+Ability buttons now show remaining uses and cooldowns
+Horn child flanking attacks now hobble instead of pinning
+Gorgon pin lasts for one turn instead of two
+New incursion defense map
+Incursion and Calamity timers now always show in the HUD
+New interfusion particles
+Multiplayer: Camera adjustments 
+Fix a rare map gen issue in Eluna
+Fix a bug with bards and big thrusks on plot maps
+Fix completed objectives showing particles
+Fix a bug with always on mods settings for new games
+Fix bug where legacy backup zip had wrong file extension
+Fix issue where some large monsters looked blurry
+Fix a bug where sentinel wouldn't take weapon range into account
+Fix a bug where immune would show up when it shouldn't
+Fix a bug where indignance could hit enemies through walls
+Fix a bug with non-weldlings having the weldling aspect
+Fix a bug where into the fire event was missing a proper name
+Fix a bug where the game console showed lots of backend text
+Fix a bug where a mortal choice could prevent a hero from dying
+Fix a bug with compulsion feedback
+Fix a bug where generic intros offered romance options to family members
+Fix a bug where Ambush and Sentinel applied debuffs even if they missed
+Fix a bug with campaign-only aspects showing up multiple times
+Fix a bug where stasis'd creatures could gain and give walling bonuses
+Fix a bug where guardian only used one-hand version of theme attacks
+Fix a bug where haunt could move twice and attack afterwards
+Fix a bug where tree-arm attack could deal 0 damage
+Fix a bug where heroes controlled by other players were autoselected
+Fix a bug where multiplayer would show interfusion feedback poorly
+Fix a bug where Rockshield value wouldn't be removed after being attacked
+Fix a bug where amounts in entity tooltips would show up incorrectly
+Fix a bug where Weldling's firewall targeted heroes incorrectly
+Fix a bug where the Chastised could target heroes in grayplane
+Fix a bug where the Chastised could ignore being Engaged
+Fix a bug where monsters standing on two fires don't take damage
+Fix a bug where taking poison damage would remove blind
+Fix a bug where dealing damage to scenery would remove blind
+Fix a bug where Terrorbird's inspire would remove blind
+Fix a crash bug
+Fix some typos
+Tools: 8-tile monsters can now be created
